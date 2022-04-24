@@ -1,0 +1,13 @@
+{
+    "name": "emoji-async",
+    "version": "0.0.1",
+    "license": "MIT",
+    "scripts": {
+        "install": "emojicodec -p emoji-async ./🔧/🏁.emojic -o ./testPackages/emoji-async/libemoji-async.a -i ./testPackages/emoji-async/interface.emojii -S ..",
+        "build": "yarn run install",
+        "clean": "rm -f ./bin/example && rm -f ./bin/* && rm -f ./testPackages/emoji-async/*" ,
+        "test": "yarn clean && yarn build && emojicodec -S ./testPackages ./🧪/🏁.emojic -o ./bin/test && ./bin/test",
+        "example": "yarn clean && yarn build && emojicodec -S ./testPackages ./❓/🏁.emojic -o ./bin/example && ./bin/example"
+    },
+    "dependencies": {}
+}
