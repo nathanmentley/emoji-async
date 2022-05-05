@@ -1,4 +1,4 @@
-# emoji-async - An async conccurency library for Emojicode.
+# emojiasync - An async concurrency library for Emojicode.
 
 ## Install
 
@@ -6,7 +6,7 @@
 
 ## Building
 
-### Building the emoji-async library from source.
+### Building the emojiasync library from source.
 There is an included package.json with build scripts that should make this pretty easy to build.
 
 In the repo root you should be able to just run:
@@ -14,7 +14,7 @@ In the repo root you should be able to just run:
 yarn run build
 ```
 
-### Building the emoji-async example project.
+### Building the emojiasync example project.
 There is an included package.json with build scripts that should make this pretty easy to build.
 
 In the repo root you should be able to just run:

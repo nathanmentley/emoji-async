@@ -1,13 +1,13 @@
 {
-    "name": "emoji-async",
+    "name": "emojiasync",
     "version": "0.0.1",
     "license": "MIT",
     "scripts": {
-        "install": "emojicodec -p emoji-async ./🔧/🏁.emojic -o ./testPackages/emoji-async/libemoji-async.a -i ./testPackages/emoji-async/interface.emojii -S ..",
+        "install": "emojicodec -p emojiasync ./🔧/🏁.🍇 -o ./testPackages/emojiasync/libemojiasync.a && cp ./testPackages/emojiasync/libemojiasync.a ./ && cp ./testPackages/emojiasync/🏛 ./ ",
         "build": "yarn run install",
-        "clean": "rm -f ./bin/example && rm -f ./bin/* && rm -f ./testPackages/emoji-async/*" ,
-        "test": "yarn clean && yarn build && emojicodec -S ./testPackages ./🧪/🏁.emojic -o ./bin/test && ./bin/test",
-        "example": "yarn clean && yarn build && emojicodec -S ./testPackages ./❓/🏁.emojic -o ./bin/example && ./bin/example"
+        "clean": "rm -f testPackages/emojiasync/* && rm -f bin/* && rm -f libemojiasync.a && rm -f 🏛",
+        "test": "yarn clean && yarn build && emojicodec -S ./testPackages ./🧪/🏁.🍇 -o ./bin/test && ./bin/test",
+        "example": "yarn clean && yarn build && emojicodec -S ./testPackages ./❓/🏁.🍇 -o ./bin/example && ./bin/example"
     },
     "dependencies": {}
 }

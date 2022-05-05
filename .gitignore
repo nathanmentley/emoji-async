@@ -1,5 +1,6 @@
-packages/
+.vscode
 *.swp
 *.o
 *.a
 *.emojii
+yarn.lock
